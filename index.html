@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Los Reyes Catòlicos</title>
+</head>
+<h1>Fernando e Isabel.</h1>
+    <h1> Su Destino?</h1>
+    <p>Sus decisiones </p>
+
+   
+    <div id="inicio-container">
+        
+        <button onclick="starGame()">PRESIONA 'ENTER'<div class="underline"></div></button>
+    </div>
+
+<body>
+
+  <script src="stargame.js"></script>
+  <script src="showLevel1.js"></script>
+  <script src="showLevel2.js"></script>
+  <script src="showlevel3.js"></script>
+  <script src="showLevel4.js"></script>
+  <script src="showlevel5.js"></script>
+
+ 
+  <script>
+    function restartGame() {
+    const reiniciar = confirm("¿Quieres reiniciar el juego?");
+    if (reiniciar) {
+      starGame();
+    } else {
+      alert("¡Hasta luego! Gracias por jugar.");
+    }
+  }
+  starGame(); 
+  </script>
+ 
+  </body>
+</html>
